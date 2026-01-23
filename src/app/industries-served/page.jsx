@@ -148,7 +148,7 @@ const page = () => {
         titleImg="yellow.png"
         description="Use My Job Schedule to create a smoother, more productive day for your entire team and deliver dependable service to every client."
         buttonText="Get Listed"
-        buttonLink="https://job.myjobsschedule.com/organization-login"
+        buttonLink = {`${process.env.NEXT_PUBLIC_DOMAIN}/organization-login`}
         mainImage="never-ever-run-out-of-stock.png"
         bigVector="bigvector.png"
         tildeImage="tildarow.png"

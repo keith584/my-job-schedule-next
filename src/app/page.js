@@ -183,7 +183,7 @@ const page = () => {
         titleImg="yellow.png"
         description="Start now and see how quickly your schedule becomes easier to manage, helping your inspections run smoothly and your customers stay satisfied."
         buttonText="Get Listed"
-        buttonLink="https://job.myjobsschedule.com/organization-login"
+        buttonLink={`${process.env.NEXT_PUBLIC_DOMAIN}/organization-login`}
         mainImage="never-ever-run-out-of-stock.png"
         bigVector="bigvector.png"
         tildeImage="tildarow.png"

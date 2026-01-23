@@ -34,7 +34,7 @@ const SearchAndBook = ({
           <div className="main-click">
               <div className="ain-btns">
                
-                <Link href="https://job.myjobsschedule.com/organization-login" target="_blank" className="c-btn">
+                <Link href={`${process.env.NEXT_PUBLIC_DOMAIN}/organization-login`} target="_blank" className="c-btn">
                   List Your Company
                 </Link>
               </div>

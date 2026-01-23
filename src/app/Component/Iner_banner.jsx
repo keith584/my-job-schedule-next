@@ -32,7 +32,7 @@ const Iner_banner = ({ text, sub_text, main_class, condition,sub_text_2 }) => {
             {condition ? null : (
               <div className="ain-btns">
                
-                <Link href="https://job.myjobsschedule.com/organization-login" className="c-btn" target="_blank">
+                <Link href={`${process.env.NEXT_PUBLIC_DOMAIN}/organization-login`} className="c-btn" target="_blank">
                   List Your Company
                 </Link>
               </div>

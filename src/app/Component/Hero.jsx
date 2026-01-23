@@ -34,7 +34,7 @@ const Hero = () => {
             </p>
 
             <div className="ain-btns">
-              <Link href="https://job.myjobsschedule.com/organization-login" className="c-btn" target="_blank">
+              <Link href={`${process.env.NEXT_PUBLIC_DOMAIN}/organization-login`} className="c-btn" target="_blank">
                 Start Now
               </Link>
            

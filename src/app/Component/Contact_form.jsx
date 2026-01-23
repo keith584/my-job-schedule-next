@@ -18,7 +18,7 @@ const Contact_form = () => {
     onSubmit: async (values, { resetForm }) => {
       try {
         const res = await fetch(
-       process.env.NEXT_PUBLIC_CONTACT_US_API,
+      `${process.env.NEXT_PUBLIC_DOMAIN}/api/contact-us/save`,
           {
             method: "POST",
             headers: {
@@ -29,7 +29,6 @@ const Contact_form = () => {
           },
         );
         const data = await res.json();
-      
         if (data.success) {
           toast.success(data.message);
           resetForm();
