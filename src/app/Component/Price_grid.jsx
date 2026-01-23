@@ -25,7 +25,7 @@ const Price_grid = ({ result }) => {
       const data = await res.json();
 
       window.open(
-        "https://www.myjobsschedule.com/organization-login?q=" +
+        "https://job.myjobsschedule.com/organization-login?q=" +
           data.encrypted,
         "_blank"
       );
