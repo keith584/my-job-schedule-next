@@ -30,8 +30,7 @@ const SearchAndBook = ({
             </span>
           </h2>
           <p>{pera}</p>
-          {double == "true" ? null : (
-            <div className="main-click">
+          <div className="main-click">
               <div className="ain-btns">
                 <a href="#" className="c-btn">
                   Start Now
@@ -41,7 +40,6 @@ const SearchAndBook = ({
                 </a>
               </div>
             </div>
-          )}
         </div>
       </div>
     </section>

@@ -1,6 +1,7 @@
 import React from "react";
 import "../assets/css/safety.css";
 import Image from "next/image";
+import Link from "next/link";
 
 const Safety = () => {
   return (
@@ -79,9 +80,9 @@ const Safety = () => {
               when every job is close to the next and long drives are
               eliminated.
             </p>
-            <a href="#" className="c-btn">
+            <Link href="/contact-us" className="c-btn" scroll={true}>
               Contact Support
-            </a>
+            </Link>
           </div>
         </div>
       </section>
