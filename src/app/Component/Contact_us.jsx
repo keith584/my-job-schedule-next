@@ -23,8 +23,8 @@ const Contact_us = () => {
                   </div>
                   <div className="contact-info-text">
                     <h2 className="fs-20">address</h2>
-                    <span>1215 Lorem Ipsum, Ch 176080 </span>
-                    <span>Chandigarh , INDIA</span>
+                    <span>5700 29th Avenue Northeast, Seattle </span>
+                    <span>Washington 98105, United States</span>
                   </div>
                 </div>
               </div>
@@ -37,8 +37,8 @@ const Contact_us = () => {
                   </div>
                   <div className="contact-info-text">
                     <h2 className="fs-20">E-mail</h2>
-                    <span>info@LoremIpsum.com</span>
-                    <span>yourmail@gmail.com</span>
+                    <span>keith@seattlerentalinspectionservices.com</span>
+                    <span>grayson@seattlerentalinspectionservices.com</span>
                   </div>
                 </div>
               </div>
@@ -51,8 +51,9 @@ const Contact_us = () => {
                   </div>
                   <div className="contact-info-text">
                     <h2 className="fs-20">office time</h2>
-                    <span>Mon - Thu 9:00 am - 4.00 pm</span>
-                    <span>Thu - Mon 10.00 pm - 5.00 pm</span>
+                   <span>Monday – Friday: 9:00 AM to 5:00 PM</span>
+                    <span>Saturday – Sunday: Closed</span>
+
                   </div>
                 </div>
               </div>
