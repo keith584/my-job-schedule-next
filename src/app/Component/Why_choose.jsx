@@ -29,7 +29,7 @@ const Why_choose = ({ title, pera, subtitle, img, mainImage, items }) => {
           <h2 className="fs-40">
             {subtitle}
             <span>
-              <Image src="/image.png" alt="icon" width={187} height={50} />
+              <Image src="/second-line.png" alt="icon" width={187} height={50} />
             </span>
           </h2>
           <Faq mainImage={mainImage} items={items} />
