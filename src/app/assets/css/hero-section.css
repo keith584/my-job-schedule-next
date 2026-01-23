@@ -1,0 +1,348 @@
+.hero{
+    padding: 100px 0px;
+    position: relative;
+    padding-bottom: 70px;
+    overflow-x: clip;
+
+}
+
+
+
+.hero .fs-90{
+    text-align: center;
+    margin-bottom: 55px;
+    color: rgb(17, 24, 39);
+    display: flex;
+    gap: 15px;
+}
+
+ .hero .fs-25{
+    text-align: center;
+    text-transform: uppercase;
+        font-family: var(--font-montserrat), sans-serif;
+   
+}
+
+.hero  .main-title .fs-25{
+    margin: 15px 0px;
+    color: rgb(55, 65, 81);
+}
+.hero  .main-title p{
+    text-align: center;
+    margin-top: 15px;
+       color: rgb(55, 65, 81);
+       max-width: 1000px;
+       width: 100%;
+      
+}
+
+.hero .fs-90 span{
+    position: relative;
+}
+.hero .fs-90 span span.main_img{
+    position: absolute;
+    left: 0px;
+    bottom: -20px;
+}
+
+.ain-btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 35px;
+    max-width: 100%;
+    width: 100%;
+}
+.ain-btns .c-btn{
+  max-width: 255px;
+  width: 100%;
+  text-align: center;
+}
+
+.main-title small{
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 600;
+       color: rgb(55, 65, 81);
+}
+
+.main-title small a{
+    background: var(--color-gradient);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+
+}
+
+.main-deashboard{
+    display: block;
+    margin: 0 auto;
+    max-width: 1046px;
+    width: 100%;
+    margin-top: 120px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 30px;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+.main-vector{
+    position: relative;
+}
+.main-vector .vector-img {
+position: absolute;
+top: -150px;
+left: -20px;
+}
+
+
+
+
+.marquee-container {
+  overflow: hidden;
+  width: 100%;
+  background: #fff;
+  padding: 40px 0;
+  padding-top: 60px;
+  position: relative;
+}
+
+.marquee-track {
+  display: flex;
+  gap: 40px;
+  animation: scroll 25s linear infinite;
+}
+
+/* Pause when hovered */
+.marquee-container:hover .marquee-track {
+  animation-play-state: paused;
+}
+
+.logo-box {
+  flex-shrink: 0;
+  transition: transform 0.3s ease;
+}
+
+.logo-box:hover {
+  transform: scale(1.1);
+}
+
+.logo {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  filter: grayscale(0%);
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+
+
+@media(max-width:1600px){
+  .hero{
+    padding-top: 80px;
+  }
+  .hero .fs-90{
+    margin-bottom: 40px;
+  }
+  .hero .main-title .fs-25{
+    padding: 10px 0px;
+  }
+  .hero .main-title p{
+    margin-top: 10px;
+  }
+  .ain-btns{
+    margin-top: 25px;
+  }
+  .marquee-container{
+    padding-top: 50px;
+    padding-bottom: 30px;
+  }
+  .ain-btns .c-btn{
+    max-width: 240px;
+  }
+  .logo{
+    height: 120px;
+    width: 120px;
+  }
+  .main-deashboard{
+    margin-top: 50px;
+  }
+  .main-vector .vector-img{
+    max-width: 120px;
+    width: 100%;
+  }
+      .main-vector .vector-img {
+        width: 100%;
+        max-width: 120px;
+        top: -81px;
+        left: 48px;
+    }
+      .hero:after{
+      bottom: -800px;
+    }
+    .hero{
+      padding-bottom: 50px;
+    }
+    .main-deashboard{
+      margin-bottom: 0px;
+    }
+}
+@media(max-width:1400px){
+    .hero{
+    padding-top: 70px;
+  }
+    .hero .fs-90{
+    margin-bottom: 30px;
+  }
+    .ain-btns{
+    margin-top: 20px;
+  }
+    .marquee-container{
+   padding: 30px 0px;
+  }
+   .ain-btns .c-btn{
+    max-width: 230px;
+  }
+    .logo{
+    height: 100px;
+    width: 100px;
+  }
+  .main-deashboard{
+    max-width: 800px;
+  }
+      .main-vector .vector-img {
+        width: 100%;
+        max-width: 120px;
+        top: -81px;
+        left: 92px;
+    }
+          .hero:after{
+      bottom: -750px;
+    }
+      .hero{
+      padding-bottom: 40px;
+    }
+  
+}
+@media(max-width:1200px){
+    .hero{
+    padding-top: 60px;
+  }
+     .marquee-container{
+   padding: 20px 0px;
+  }
+     .ain-btns .c-btn{
+    max-width: 220px;
+  }
+     .logo{
+    height: 90px;
+    width: 90px;
+  }
+  .main-deashboard{
+    max-width: 600px;
+    margin-top: 30px;
+  }
+       .hero:after{
+      bottom: -650px;
+      left: -95px;
+    }
+        .hero{
+      padding-bottom: 30px;
+    }
+}
+@media(max-width:995px){
+    .hero{
+    padding-top: 50px;
+  }
+  .hero .main-title .fs-25{
+    padding: 0px;
+  }
+  .hero .main-title p{
+    padding-bottom: 0px;
+  }
+    .logo{
+    height: 80px;
+    width: 80px;
+  }
+   .main-deashboard{
+    max-width:100%;
+    margin-top: 30px;
+  }
+         .main-vector .vector-img {
+        max-width: 80px;
+        top: -52px;
+        left: -45px;
+    }
+       .hero:after{
+      bottom: -550px;
+      left: -90px;
+    }
+}
+@media(max-width:768px){
+    .hero{
+    padding-top: 40px;
+  }
+
+}
+@media(max-width:580px){
+    .hero{
+    padding-top: 40px;
+  }
+  .hero .fs-90{
+    gap: 10px;
+  }
+  .ain-btns{
+    flex-direction: column;
+    gap: 10px;
+  }
+  .main-deashboard{
+    margin-top: 0px;
+  }
+  
+  .hero .fs-25{
+    font-size: 15px;
+  }
+        .hero:after {
+        bottom: -600px;
+        left: -45px;
+    }
+    .main-deashboard{
+      max-width: 400px;
+    }
+        .main-vector .vector-img {
+        max-width: 50px;
+        top: -50px;
+        left: 0px;
+    }
+}
+
+@media(max-width:445px){
+  .hero .fs-90 span{
+    display: block;
+  }
+  .hero .fs-90{
+    display: block;
+    height: 120px;
+  }
+    .hero .fs-90 span span.main_img img,
+  .hero .fs-90 span span.main_img{
+    height: 30px;
+    bottom: -50px;
+    left: 50%;
+  }
+   .hero .fs-90 span span.main_img{
+    transform: translateX(-50%);
+   }
+}

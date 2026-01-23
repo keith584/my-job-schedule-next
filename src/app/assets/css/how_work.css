@@ -1,0 +1,271 @@
+.work-flow {
+  padding: 100px 0px;
+  position: relative;
+}
+
+section.work-flow::after {
+  content: "";
+  z-index: -1;
+  background: var(--color-gradient);
+  /* background-color: #c4c4c421; */
+  border-radius: 0%;
+  width: 100%;
+  height: 115%;
+  position: absolute;
+  top: 0px;
+  top: -200px;
+  left: 0px;
+  border-radius: 40%;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.work-flow .fs-70 {
+  color: var(--color-white);
+}
+.work-flow .work .fs-70 {
+  max-width: 600px;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.work-flow p {
+  color: var(--color-white);
+  font-weight: 500;
+}
+.work-flow .work .fs-70 span {
+  position: absolute;
+  max-width: 200px;
+  left: 0px;
+  z-index: -1;
+}
+.work-flow .work p {
+  max-width: 900px;
+  width: 100%;
+}
+
+.work-flow .work .fs-40 {
+  color: var(--color-white);
+  margin-bottom: 15px;
+}
+.work {
+  margin-bottom: 60px;
+  position: relative;
+}
+.steps-data {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+}
+.working-img {
+  max-width: 550px;
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: 0 8px 24px #959da533;
+}
+.steps-data .steps {
+  max-width: 600px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.steps span {
+  font-size: 100px;
+  font-weight: 500;
+  color: var(--color-white);
+}
+.steps-data .steps {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+}
+
+.steps-data .fs-25 {
+  text-align: left;
+  margin-bottom: 5px;
+  color: var(--color-white);
+}
+
+.steps-data .steps .wave-line {
+  position: absolute;
+}
+
+.wave-arrow {
+  position: absolute;
+  right: 150px;
+  top: 104px;
+  transform: rotate(45deg);
+}
+.steps-data .fs-40 {
+  color: var(--color-white);
+  margin-bottom: 20px;
+}
+.content p {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+@media (max-width: 1600px) {
+  .work-flow {
+    padding: 80px 0px;
+  }
+  .work-flow .work .fs-70 {
+    margin-bottom: 30px;
+  }
+  .work {
+    margin-bottom: 30px;
+  }
+  .steps span {
+    font-size: 80px;
+  }
+  .steps-data .fs-25 {
+    font-size: 23px;
+  }
+  .steps-data .steps {
+    margin-bottom: 15px;
+  }
+  .work-flow .work p {
+    max-width: 600px;
+  }
+  .working-img {
+    max-width: 400px;
+  }
+  .wave-arrow {
+    max-width: 250px;
+  }
+  .steps-data .fs-40 {
+    margin-bottom: 15px;
+  }
+  .work-flow .work .fs-70 span {
+    max-width: 164px;
+
+    right: 111px;
+  }
+  section.work-flow::after {
+    top: -155px;
+    border-radius: 30%;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+}
+@media (max-width: 1400px) {
+  .work-flow {
+    padding: 60px 0px;
+  }
+  .work-flow .work .fs-70 {
+    margin-bottom: 20px;
+  }
+  .work {
+    margin-bottom: 25px;
+  }
+  .steps span {
+    font-size: 70px;
+  }
+  .steps-data .steps {
+    gap: 10px;
+  }
+  .work-flow .work .fs-70 {
+    max-width: 500px;
+  }
+  .work-flow .work .fs-70 span {
+    max-width: 130px;
+    right: 60px;
+  }
+  section.work-flow:after {
+    border-radius: 30% 30% 0 0;
+    top: -143px;
+  }
+  .work-flow {
+    padding-top: 30px;
+  }
+}
+@media (max-width: 1200px) {
+  .work-flow {
+    padding: 50px 0px;
+  }
+  .work-flow .work .fs-70 {
+    margin-bottom: 15px;
+  }
+  .work {
+    margin-bottom: 20px;
+  }
+  .wave-arrow {
+    max-width: 250px;
+    right: 87px;
+  }
+  .work-flow .work .fs-70 span {
+    max-width: 100px;
+    left: 90px;
+  }
+  section.work-flow:after {
+    top: -136px;
+  }
+}
+@media (max-width: 995px) {
+  .work-flow {
+    padding: 40px 0px;
+  }
+  .work {
+    margin-bottom: 15px;
+  }
+  .steps-data {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .wave-arrow {
+    display: none;
+  }
+  .steps-data .steps {
+    margin-bottom: 10px;
+  }
+  .working-img {
+    max-width: 100%;
+  }
+  .steps-data .steps {
+    max-width: 100%;
+  }
+  .work {
+    margin-bottom: 10px;
+  }
+  .work-flow .work .fs-70 {
+    max-width: 100%;
+    width: fit-content;
+  }
+  .work-flow .work .fs-70 span {
+    right: 10px;
+    left: auto;
+  }
+
+  section.work-flow:after {
+    border-radius: 0px;
+    top: 0px;
+    height: 100%;
+    padding: 40px 0px;
+  }
+}
+@media (max-width: 768px) {
+  .steps-data {
+    gap: 0px;
+  }
+  .work-flow {
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+}
+@media (max-width: 580px) {
+}
+@media (max-width: 510px) {
+  .work-flow .work .fs-70 span {
+    left: 0px;
+    right: auto;
+    top: 0px;
+  }
+  .work-flow .work .fs-70 span {
+    max-width: 90px;
+  }
+}
+@media (max-width: 430px) {
+}

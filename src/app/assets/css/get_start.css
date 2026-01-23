@@ -1,0 +1,138 @@
+.get-started-section{
+    padding-bottom: 180px;
+}
+.get-started-section .fs-70{
+text-align: center;
+width: fit-content;
+margin: 0 auto;
+padding-bottom: 30px;
+}
+.get-started-section .fs-70 span{
+    position: absolute;
+    right: 0px;
+    z-index: -1;
+}
+.get-started-section .main-content p {
+    text-align: center;
+    max-width: 750px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.cta-container{
+   max-width: fit-content;
+   margin: 0 auto;
+    padding-top: 60px;
+
+
+}
+
+.full-img img{
+    overflow: hidden;
+border-radius: 30px;
+box-shadow: 0 8px 24px #959da533;
+position: relative;
+z-index: 99;
+}
+ 
+.cta-container .book{
+padding-top: 60px;
+}
+.cta-block{
+    padding-bottom: 50px;
+}
+.cta-block .c-btn{
+    width: fit-content;
+}
+.cta-block  p{
+    font-size: 18px;
+}
+.cta-block .fs-40{
+    padding-bottom: 15px;
+}
+.cta-block .c-btn{
+    margin-top: 15px;
+}
+.full-img{
+    position: relative;
+}
+.full-img span.big-vector{
+    position: absolute;
+    top: -130px;
+    left: -150px;
+}
+.full-img span.big-vector img{
+    box-shadow: none;
+}
+.get-started-section .main-content .c-btn{
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.full-img span.tilde{
+    position: absolute;
+     
+     width: 150px;
+     left: 50%;
+     bottom: -150px;
+    transform: translateX(-50%) rotate(45deg);
+}
+.full-img span.tilde img{
+    box-shadow: none;
+   
+}
+
+@media(max-width:1600px){
+    .get-started-section{
+        padding-bottom: 150px;
+    }
+    .get-started-section .fs-70{
+        padding-bottom: 15px;
+    }
+    .full-img span.big-vector{
+        max-width: 150px;
+        left: -60px;
+        top: -80px;
+    }
+    .cta-container{
+        padding-top: 50px;
+    }
+    .get-started-section .main-content .c-btn{
+        margin-top: 20px;
+    }
+}
+@media(max-width:1400px){
+    .get-started-section .main-content .c-btn{
+        margin-top: 15px;
+    }
+    .get-started-section{
+        padding-bottom: 130px;
+    }
+    .full-img span.tilde{
+        width: 100px;
+    }
+    .cta-container{
+        padding-top: 30px;
+    }
+    .full-img span.big-vector{
+        max-width: 130px;
+    }
+     .full-img span.tilde{
+        bottom: -100px;
+    }
+}
+
+@media(max-width:995px){
+    .full-img span.tilde{
+        bottom: -97px;
+    }
+    .get-started-section{
+        padding-bottom: 100px;
+    }
+}
+
+@media(max-width:580px){
+    .get-started-section .fs-70 span{
+        max-width: 90px;
+    }
+}

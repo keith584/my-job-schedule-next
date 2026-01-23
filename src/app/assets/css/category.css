@@ -1,0 +1,215 @@
+.category{
+padding: 100px 0px;
+
+
+}
+.category .choose-content .fs-70 {
+max-width: 100%;
+text-align: left;
+width: fit-content;
+margin: 0;
+margin-bottom: 20px;
+}
+.category .choose-content  p{
+    max-width: 100%;
+    text-align: left;
+    max-width: 800px;
+    margin: 0;
+}
+
+.category .choose-content .fs-70 span{
+    max-width: 200px;
+    right: 0px;
+    left: auto;
+    top: auto;
+    transform: none;
+    top: -20px;
+    position: absolute;
+    right: 0px;
+    z-index: -1;
+}
+.category-slider-section{
+    padding-top: 40px;
+}
+
+.category-card{
+    position: relative;
+    border-radius: 30px;
+    overflow: hidden;
+        box-shadow: 0 8px 24px #959da533;
+        margin: 30px;
+}
+.category-card .category-content{
+    position: absolute;
+    bottom: 0px;
+    padding: 40px;
+    z-index: 99;
+    max-width: 500px;
+    width: 100%;
+}
+
+.category-card::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    
+}
+.category-card .category-content p{
+    color:var(--color-white);
+}
+.category-card .category-content .fs-40{
+    text-align: left;
+    color:var(--color-white);
+    margin-bottom: 10px;
+ 
+}
+
+.choose-content .fs-40 span{
+    position: absolute;
+    left: 0px;
+    height: 30px;
+    bottom: 0px;
+    z-index: -1;
+}
+.choose-content .fs-40{
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.arrow-btns{
+    margin-left: auto;
+    display: flex;
+    gap: 30px;
+    width: fit-content;
+    padding-right: 150px;
+    padding-bottom: 30px;
+
+}
+.arrow-btns button{
+    background-color: transparent;
+    border: none;
+    max-width: 100px;
+}
+
+@media(max-width:1600px){
+    .category{
+        padding: 80px 0px;
+    }
+    .category .choose-content .fs-70{
+        margin-bottom: 15px;
+    }
+    .choose-content .fs-40{
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+    .category .choose-content .fs-70 span{
+        max-width: 150px;
+        top: -9px;
+    }
+     .category-slider-section{
+        padding-top: 30px;
+    }
+    .arrow-btns{
+        padding-bottom: 25px;
+    }
+    .arrow-btns{
+        gap: 20px;
+    }
+    .arrow-btns button{
+        max-width: 80px;
+    }
+    .category-card{
+        margin: 25px;
+    }
+}
+@media(max-width:1400px){
+     .category{
+        padding: 60px 0px;
+    }
+    .choose-content .fs-40{
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+    .choose-content .fs-40{
+        margin: 10px 0px;
+    }
+      .category-slider-section{
+        padding-top: 20px;
+    }
+    .arrow-btns{
+        padding-bottom: 20px;
+    }
+      .arrow-btns{
+        gap: 10px;
+    }
+     .arrow-btns button{
+        max-width: 60px;
+     }
+      .category-card{
+        margin: 20px;
+    }
+    .category-card .category-content{
+        padding: 30px;
+    }
+    .category .choose-content .fs-70 span{
+        max-width: 120px;
+    }
+}
+@media(max-width:1200px){
+       .category{
+        padding: 50px 0px;
+    }
+    .category-slider-section{
+        padding-top: 15px;
+    }
+    .arrow-btns{
+        padding-bottom: 10px;
+    }
+      .category-card{
+        margin: 15px;
+    }
+      .category-card .category-content{
+        padding: 25px;
+    }
+       .category .choose-content .fs-70 span{
+        max-width: 100px;
+    }
+    .choose-content .fs-40 span{
+        max-width: 120px;
+    }
+}
+@media(max-width:995px){
+       .category{
+        padding: 40px 0px;
+    }
+    .category-card .category-content .fs-40{
+        margin-bottom: 5px;
+    }
+         .category-card .category-content{
+        padding: 15px;
+    }
+    .category-slider-section{
+        padding-top: 10px;
+    }
+}
+@media(max-width:768px){
+     .arrow-btns{
+        padding-right: 30px;
+    }
+    .category .choose-content .fs-70 span,
+    .choose-content .fs-40 span{
+        max-width: 90px;
+    }
+}
+
+@media(max-width:430px){
+    .choose-content .fs-40 span{
+        top: 0px;
+    }
+    .arrow-btns{
+        gap: 8px;
+    }
+}

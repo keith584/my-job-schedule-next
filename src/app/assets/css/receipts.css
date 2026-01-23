@@ -1,0 +1,159 @@
+ .pricing-section {
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ padding: 150px 0px;
+  position: relative;
+  padding-bottom: 100px;
+  overflow: hidden;
+}
+
+.pricing-section .arrow{
+    position: absolute;
+    left: 0px;
+    top: -40px;
+}
+
+.pricing-container {
+ display: flex;
+  gap: 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pricing-text{
+    max-width: 700px;
+}
+
+
+
+.pricing-text .fs-70 {
+  position: relative;
+  margin-bottom: 25px;
+}
+.pricing-text .fs-70 span{
+    position: absolute;
+    max-width: 150px;
+    left: 0px;
+    bottom: 0px;
+    z-index: -1;
+}
+
+
+
+.pricing-points {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding-top: 30px;
+}
+
+.point {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+padding-bottom: 15px;
+  transition: all 0.3s ease;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+
+
+.point img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+
+.point .fs-40 {
+margin-bottom: 15px;
+}
+
+
+
+.pricing-image {
+  max-width: 500px;
+ 
+}
+
+.pricing-image img {
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+}
+
+
+
+@media(max-width:1600px){
+    section.pricing-section .pricing-image{
+    max-width: 400px;
+  }
+
+}
+
+@media(max-width:1400px){
+.pricing-section .arrow{
+  max-width: 70px;
+}
+.pricing-section{
+padding: 70px 0px;
+}
+.pricing-text .fs-70 span{
+  max-width: 130px;
+}
+}
+
+
+@media(max-width:1200px){
+  .pricing-section{
+    padding: 50px 0px;
+  }
+  .pricing-text .fs-70 span{
+    max-width: 100px;
+  }
+      .pricing-section .arrow {
+        max-width: 50px;
+    }
+}
+
+@media(max-width:995px){
+  .pricing-container{
+    flex-direction: column;
+
+  }
+  .pricing-text,
+  section.pricing-section .pricing-image{
+    max-width: 100%;
+  }
+  .pricing-section{
+    padding-top: 30px;
+  }
+  .pricing-text .fs-70{
+    margin-bottom: 15px;
+  }
+  .pricing-points{
+    padding-top: 20px;
+  }
+  .pricing-points{
+    gap: 15px;
+  }
+  .point{
+    padding-bottom: 10px;
+  }
+  .pricing-container{
+    gap: 30px;
+  }
+}
+
+@media(max-width:768px){
+  .pricing-section .arrow{
+    display: none;
+  }
+}
+
+@media(max-width:580px){
+  .pricing-text .fs-70 span{
+    max-width: 80px;
+  }
+}

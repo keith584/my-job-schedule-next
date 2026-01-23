@@ -1,0 +1,131 @@
+.site-footer{
+    padding-top: 60px;
+}
+.full-details-footer{
+    display: flex;
+    align-items: center;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 60px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+
+}
+
+.footer-section{
+    max-width: 400px;
+}
+form.newsletter-form{
+    display: flex;
+    align-content: center;
+    padding-top: 35px;
+    gap: 10px;
+}
+form.newsletter-form input{
+    padding: 10px;
+    border: 1px solid #c4c4c4;
+}
+
+button.c-btn{
+    border: none;
+  padding: 12px 35px;
+    width: 100%;
+    max-width: 150px;
+}
+
+.footer-section .fs-35{
+    padding-bottom: 15px;
+}
+.footer-section ul li a{
+        color: var(--color-black);
+    font-size: 16px;
+    font-style: normal;
+    line-height: 25px;
+    font-weight: 500;
+
+}
+.footer-section ul li{
+    padding: 5px 0px;
+}
+.footer-bottom p {
+    text-align: center;
+    padding: 25px 0px;
+    font-size: 16px;
+}
+
+@media(max-width:1600px){
+    .site-footer{
+        padding-top: 40px;
+    }
+    .full-details-footer{
+        padding-bottom: 20px;
+    }
+    .footer-section .fs-35{
+        padding-bottom: 10px;
+    }
+    .footer-section ul li a{
+        font-size: 15px;
+        line-height: normal;
+    }
+}
+@media(max-width:1400px){
+    .footer-section{
+        max-width: 350px;
+    }
+    button.c-btn{
+        max-width: 120px;
+    }
+    form.newsletter-form{
+        padding-top: 20px;
+    }
+    .footer-section ul li a{
+        font-size: 14px;
+        line-height: normal;
+    }
+    button.c-btn{
+        padding: 15px ;
+    }
+}
+@media(max-width:1200px){
+    .full-details-footer{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .full-details-footer .footer-section:nth-child(4){
+       
+        max-width: 100%;
+        order: -1;
+        width: 100%;
+    }
+    .footer-section{
+        max-width: 100%;
+    }
+    form.newsletter-form{
+        padding-top: 10px;
+    }
+    .footer-section .fs-35{
+        padding-bottom: 5px;
+    }
+    .footer-section .fs-35{
+        padding-top: 10px;
+    }
+    .footer-bottom p{
+        padding: 10px 0px;
+        padding-top: 0px;
+    }
+        .full-details-footer .footer-section:nth-child(1){
+            order: -1;
+        }
+       .full-details-footer .footer-section:nth-child(1) .fs-35{
+        padding-top: 0px;
+        }
+        .footer-bottom p{
+            text-align: left;
+        }
+        .footer-section p {
+            padding-bottom: 0px;
+        }
+        .full-details-footer{
+            padding-top: 15px;
+        }
+}

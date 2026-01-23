@@ -1,0 +1,126 @@
+.container-flow{
+    padding: 50px;
+    border-radius: 10px;
+    margin: 40px 0px;
+    /* background-color: #F0384E; */
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    box-shadow: 0 8px 24px #959da533;
+    border: 1px solid #1bb6f9;
+}
+section.icludes{
+    position: relative;
+}
+section.icludes span.tilde{
+    bottom: -150px;
+}
+.container-flow .fs-40{
+    text-align: center;
+    padding-bottom: 10px;
+    color: #000;
+}
+.container-flow p {
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.tabel-responsive{
+    overflow-x: auto;
+}
+
+
+@media(max-width:1600px){
+    .container-flow{
+        margin: 20px 0px;
+    }
+    .fetaures{
+        padding-bottom: 40px;
+        margin-top: 40px;
+        padding-bottom: 0px;
+    }
+    .container-flow{
+        padding: 40px;
+    }
+    .full-list{
+        padding-bottom: 60px;
+    }
+    section.icludes span.tilde{
+        bottom: -130px;
+    }
+    .full-list{
+        gap: 30px;
+    }
+    .full-list .listall ul li{
+        padding: 5px 0px;
+    }
+    .full-list .listall .fs-40{
+        margin-bottom: 10px;
+    }
+    .full-list .listall,
+    .fs-price-title{
+        padding: 20px;
+    }
+}
+
+@media(max-width:1400px){
+    .container-flow{
+        padding: 30px;
+    }
+    .container-flow .fs-40{
+        margin-bottom: 10px;
+    }
+    .container-flow table thead th{
+        font-size: 14px;
+    }
+}
+
+@media(max-width:1200px){
+    .fs-price-title .fs-40{
+        padding-bottom: 5px;
+    }
+    .full-list{
+        padding-bottom: 40px;
+    }
+}
+@media(max-width:995px){
+    .container-flow table tbody tr td,
+  .container-flow table thead th{
+    padding: 12px;
+  }
+.full-list{
+    gap: 20px;
+}
+}
+
+@media(max-width:768px){
+    .full-list{
+        flex-direction: column;
+        padding-top: 60px;
+        
+    }
+    .fs-price-title,
+    .full-list .listall{
+        width: 100%;
+    }
+        section.icludes span.tilde {
+        bottom: -100px;
+    }
+    .fs-price-title .c-btn{
+        margin-top: 10px;
+    }
+    .container-flow .fs-40{
+        padding-bottom: 5px;
+    }
+}
+@media(max-width:580px){
+    .plan-card{
+        padding: 30px;
+    }
+      .container-flow{
+        margin-top: 0px;
+    }
+}

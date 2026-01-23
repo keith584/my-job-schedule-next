@@ -1,0 +1,438 @@
+.pricng {
+  padding: 150px 0px;
+  padding-bottom: 60px;
+}
+.pricng .fs-70 {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.main-title-pricing p {
+  text-align: center;
+
+  width: 100%;
+  margin: 0 auto;
+}
+.pricng .fs-70 span {
+  position: absolute;
+  z-index: -1;
+}
+.pricing-grid {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.plan-card {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 40px ;
+  border-radius: 15px;
+  max-width: 400px;
+  margin: 0 auto;
+  width: 100%;
+  transition: 0.3s ease-in;
+}
+.plan-card:hover {
+  transform: translateY(-10px) scale(1.1);
+}
+
+.plan-header .fs-35 {
+  text-align: center;
+  padding-bottom: 10px;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.plan-header p {
+  text-align: center;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.plan-header .price {
+  padding-bottom: 25px;
+  /* border-bottom: 1px solid #c4c4c4; */
+  text-align: center;
+}
+
+.plan-header .price {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.plan-header .price small {
+  font-size: 20px;
+  background: var(--color-gradient);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+ul.plan-features li {
+  padding: 10px 10px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+}
+ul.plan-features {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: 500px;
+}
+ul.plan-features.data{
+height: auto !important;
+}
+.plan-features li::before {
+  content: "✓";
+  color: #1bb6f9;
+  font-weight: bold;
+  margin-right: 15px;
+}
+
+.plan-card p {
+  font-size: 15px;
+  font-weight: 600;
+  height: 50px;
+}
+
+.plan-cta .c-btn {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.plan-card.featured {
+  border: 1px solid #1bb6f9;
+  max-width: 450px;
+  padding: 40px;
+  border-top-left-radius: 80px;
+  border-bottom-right-radius: 80px;
+  position: relative;
+  overflow: hidden;
+  background-color: #fff;
+}
+.plan-card.featured::before,
+.plan-card.featured::after {
+  position: absolute;
+  content: "";
+  top: -20px;
+  right: -20px;
+  width: 60px;
+  height: 60px;
+  background: var(--color-gradient);
+  border-radius: 90%;
+}
+.plan-card.featured::before {
+  bottom: 0px;
+  left: 0px;
+  right: auto;
+  top: auto;
+  left: -20px;
+  bottom: -20px;
+}
+
+.fetaures {
+  margin-top: 60px;
+}
+span.bg-blue {
+  position: absolute;
+  right: 0px;
+  z-index: -1;
+  right: 0px;
+}
+.plan-header .fs-35 {
+  position: relative;
+  z-index: 10;
+}
+.plan-header .fs-35 .bg-blue {
+  position: absolute;
+  top: 0;
+  left: 0px;
+}
+ul.sub-menu-data {
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 10px;
+  margin-left: 20px;
+  background: var(--Gradiant, linear-gradient(90deg, #52b6e8 0%, #f0384e 100%));
+  width: 100%;
+}
+
+ul.plan-features li ul.sub-menu-data li {
+  color: #fff;
+}
+ul.plan-features li ul.sub-menu-data li:before {
+  color: #fff;
+}
+ul.plan-features li.main-sub-flow {
+  flex-wrap: wrap;
+}
+
+.main-title-pricing .fs-40 {
+  text-align: center;
+  margin-bottom: 25px;
+  position: relative;
+}
+.main-title-pricing .fs-40 span {
+  position: absolute;
+  z-index: -1;
+}
+
+.main-title-pricing .ain-btns .c-btn {
+  max-width: 350px;
+}
+.main-title-pricing .ain-btns {
+  margin-bottom: 80px;
+  margin-top: 20px;
+}
+.main-title-pricing p {
+  max-width: 900px;
+}
+
+.plan-header .fs-30 {
+  text-align: center;
+  padding-bottom: 15px;
+}
+.example-box {
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  background: var(--Gradiant, linear-gradient(90deg, #52b6e8 0%, #f0384e 100%));
+}
+
+.example-box .fs-25 {
+  font-family: Montserrat, sans-serif, sans-serif;
+  margin-bottom: 10px;
+}
+.example-box p {
+  padding-bottom: 10px;
+  color: #fff;
+  padding-bottom: 10px;
+  height: auto;
+}
+.cta-data .c-btn {
+  text-align: center;
+}
+
+.full-data .ain-btns .c-btn{
+  max-width: 350px;
+}
+.full-data{
+margin-top: 60px;
+}
+.full-data .ain-btns .c-btn.active::before,
+.full-data .ain-btns .c-btn.active::after{
+
+  opacity: 1;
+}
+.full-data .ain-btns .c-btn.active{
+  color: #fff;
+  border: 1px solid transparent;
+}
+.full-data .ain-btns .c-btn::before,
+.full-data .ain-btns .c-btn::after{
+  opacity: 0;
+}
+.full-data .ain-btns .c-btn{
+  background-color: #fff;
+  color: #000;
+  border: 1px solid  #1bb6f9;
+}
+.full-data .ain-btns{
+  margin-bottom: 80px;
+}
+
+.full-data .ain-btns button.c-btn.active::after {
+    opacity: 0;
+}
+
+.container-flow table thead{
+  border: none;
+  background:var(--Gradiant, linear-gradient(90deg, #52b6e8 0%, #f0384e 100%)) ;
+}
+.container-flow table thead th{
+  padding: 15px 10px;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #fff;
+}
+.container-flow table{
+  width: 100%;
+}
+.container-flow table  tbody tr td{
+  padding: 15px 10px;
+  color: #000;
+  font-size: 14px;
+  font-weight: 600;
+  border-bottom: 1px solid #fff;
+}
+.container-flow .fs-40 {
+  margin-bottom: 20px;
+}
+.container-flow table tbody tr{
+  transition: 0.3s ease-in;
+}
+.plan-cta .c-btn{
+  width: 100%;
+  max-width: 100%;
+}
+/* .container-flow table tbody tr:hover{
+background:var(--Gradiant, linear-gradient(90deg, #f0384e 0%, #52b6e8  100%)) ;
+} */
+/* .container-flow table tbody tr:hover td{
+  color: #fff;
+} */
+/* new plan css */
+
+@media (max-width: 1600px) {
+  .pricng {
+    padding-top: 100px;
+    padding-bottom: 40px;
+  }
+  .plan-card p {
+    font-size: 14px;
+    line-height: 24px;
+    height: auto;
+  }
+  ul.plan-features li {
+    font-size: 14px;
+    padding: 10px 0px;
+  }
+  .plan-header .price {
+    font-size: 25px;
+  }
+  .plan-header .price small {
+    font-size: 14px;
+  }
+  .full-data .ain-btns .c-btn{
+    max-width: 320px;
+  }
+  .full-data .ain-btns{
+    margin-bottom: 60px;
+  }
+  .main-title-pricing .fs-40 span{
+    max-width: 90px;
+  }
+  .full-data .ain-btns .c-btn{
+    padding: 10px 25px;
+  }
+  ul.plan-features{
+    height: 450px;
+  }
+.plan-header .price{
+  padding-bottom: 10px;
+}
+.full-data{
+  margin-top: 30px;
+}
+.plan-card{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+}
+
+
+@media(max-width:1400px){
+  .main-title-pricing .fs-40{
+    margin-bottom: 15px;
+  }
+  ul.plan-features{
+    height: 450px;
+  }
+  .plan-cta .c-btn{
+  max-width: 90%;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+}
+@media (max-width: 1200px) {
+  ul.plan-features li {
+    padding: 8px 0px;
+  }
+  .plan-card.featured {
+    padding: 30px;
+  }
+  .full-data .ain-btns .c-btn{
+    max-width: 300px;
+  }
+  .main-title-pricing .fs-40{
+    margin-bottom: 10px;
+  }
+  .full-data .ain-btns{
+    margin-bottom: 40px;
+    margin-top: 10px;
+  }
+  .pricng{
+    padding-top: 70px;
+  }
+      ul.plan-features {
+        height: 420px;
+    }
+    ul.plan-features{
+      height: 450px;
+    }
+    .pricing-grid{
+      flex-wrap: wrap;
+    }
+    .plan-card{
+      margin: 0px;
+    }
+    .pricing-grid{
+      justify-content: center;
+    }
+    .plan-card:hover{
+      transform: none;
+    }
+}
+
+@media (max-width: 995px) {
+  .pricing-grid {
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 30px;
+  }
+  .plan-card.featured,
+  .plan-card {
+    max-width: 400px;
+    padding: 35px;
+  }
+  .plan-card.featured {
+    order: -1;
+  }
+  .plan-card p,
+  ul.plan-features{
+    height: auto;
+  }
+  .example-box p{
+    padding-bottom: 5px;
+  }
+  .plan-cta .c-btn{
+    margin-top: 10px;
+  }
+}
+@media(max-width:768px){
+  .full-data .ain-btns{
+    flex-direction: column;
+    justify-content: center;
+  }
+  .full-data .ain-btns .c-btn{
+    margin: 0 auto;
+  }
+  button.c-btn,
+  .c-btn {
+        padding: 12px;
+    }
+}
+
+@media (max-width: 500px) {
+  .plan-card:hover {
+    transform: none;
+  }
+  .pricing-grid {
+    padding-top: 0px;
+  }
+  .full-data .ain-btns{
+    margin-bottom: 30px;
+  }
+}

@@ -1,0 +1,76 @@
+.poup{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #000000a6;
+    top: 0px;
+    left: 0px;
+    z-index: 99999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.poup.show{
+    display: flex;
+    animation: fademe ease-in 0.3s;
+}
+@keyframes fademe{
+    0%{
+opacity: 0;
+    }
+    100%{
+opacity: 1;
+    }
+}
+.cta{
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 560px;
+    width: 100%;
+    position: relative;
+}
+.cta-butons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.poup .fs-40{
+    text-align: center;
+    padding-bottom: 15px;
+}
+span.close-me{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+}
+.poup .c-btn{
+    max-width: 210px;
+    width: 100%;
+    text-align: center;
+}
+
+@media(max-width:1600px){
+    .cta{
+        padding: 20px;
+    }
+    .poup .fs-40{
+        font-size: 35px;
+        padding-bottom: 25px;
+    }
+    .cta-butons{
+        gap: 10px;
+    }
+}
+@media(max-width:575px){
+    .cta{
+        max-width: 350px;
+    }
+    .poup .fs-40{
+        padding-bottom: 15px;
+    }
+}

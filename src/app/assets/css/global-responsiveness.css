@@ -1,0 +1,226 @@
+
+@media(max-width:1600px){
+    ul.nav-list li a, ul.account-lists li a{
+        font-size: 15px;
+    }
+    .c-btn{
+        font-size: 14px;
+    }
+    .sticky-header p{
+        font-size: 16px;
+    }
+    .sticky-header{
+        padding: 10px 0px;
+    }
+  
+    ul.nav-list{
+        gap: 25px;
+    }
+   
+    .custom-header .container{
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .c-btn{
+        padding: 10px 25px;
+    }
+    .fs-90{
+        font-size: 60px;
+        line-height: 80px;
+    }
+    .fs-25{
+        font-size: 20px;
+        line-height: 35px;
+    }
+    p, .form-fileds label, .form-fileds .form-fields{
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .main-title small{
+        font-size: 14px;
+    }
+    .fs-70{
+        font-size: 60px;
+        line-height: 80px;
+    }
+    .fs-40{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .fs-35{
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .fs-30{
+        font-size: 25px;
+        line-height: 32px;
+    }
+    .mt{
+        margin-top: 127px;
+    }
+   .custom-header.active{
+    top: -46px;
+   }
+}
+@media(max-width:1400px){
+
+    .sticky-header p{
+        font-size: 15px;
+    }
+       .fs-90{
+        font-size: 50px;
+          line-height: 70px;
+    }
+      .fs-25{
+        font-size: 18px;
+        line-height: 28px;
+    }
+       .fs-70{
+        font-size: 50px;
+        line-height: 70px;
+    }
+      .fs-40{
+        font-size: 25px;
+        line-height: 35px;
+    }
+      .fs-35{
+        font-size: 23px;
+        line-height: 33px;
+    }
+   
+}
+@media(max-width:1200px){
+    .grid-headers .nav-links .c-btn{
+        display: block;
+    }
+    .grid-headers .c-btn{
+        display: none;
+    }
+    .grid-headers{
+        flex-direction: column;
+    }
+    .mobile-grid{
+        max-width: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .grid-headers{
+        gap: 10px;
+    }
+    .nav-links{
+        display: none;
+        width: 100%;
+    }
+    ul.nav-list{
+        flex-direction: column;
+        gap: 10px;
+    }
+    ul.nav-list li {
+        width: 100%;
+    }
+    .grid-headers .nav-links .c-btn{
+        padding: 12px;
+        margin-top: 15px;
+    }
+    
+    .nav-links{
+        padding-left: 15px;
+        padding-bottom: 15px;
+        flex-direction: column;
+    }
+    .menu-icon{
+        display: block;
+    }
+    .menu-icon{
+        max-width: 50px;
+    }
+   .active.nav-links {
+  display: block;
+  animation: animateme 0.3s ease-in forwards;
+}
+
+@keyframes animateme {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px); /* starts slightly above */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0); /* slides down into place */
+  }
+}
+.nav-links.inactive {
+  animation: backward 0.3s ease-in forwards;
+}
+
+@keyframes backward {
+  0% {
+    opacity: 1;
+    transform: translateY(0); /* starts in place */
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-20px); /* slides up and fades out */
+  }
+}
+     .fs-90{
+        font-size: 40px;
+         line-height: 60px;
+    }
+      .fs-25{
+        font-size: 16px;
+        line-height: 26px;
+    }
+       .fs-70{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    p, .form-fileds label, .form-fileds .form-fields{
+        font-size: 15px;
+        line-height: 26px;
+    }
+
+}
+@media(max-width:995px){
+    .bars,
+    .menu-icon{
+        max-width: 45px;
+    }
+    .nav-links{
+        padding-left: 10px;
+    }
+       .fs-70{
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .work-flow{
+        padding-top: 30px;
+    }
+}
+@media(max-width:768px){
+    .nav-links{
+        padding-left: 0px;
+    }
+    .sticky-header p{
+        font-size: 14px;
+    }
+     .fs-70{
+        font-size: 30px;
+        line-height: 45px;
+    }
+}
+
+@media(max-width:580px){
+    .hero .fs-90{
+        font-size: 30px;
+    }
+    .fs-70{
+        line-height: 40px;
+    }
+    .c-btn{
+        padding: 8px 20px;
+    }
+   
+}
