@@ -1,6 +1,7 @@
 import React from "react";
 import "../assets/css/inner_banner.css";
 import Image from "next/image";
+import Link from "next/link";
 const Iner_banner = ({ text, sub_text, main_class, condition,sub_text_2 }) => {
   return (
     <>
@@ -30,12 +31,10 @@ const Iner_banner = ({ text, sub_text, main_class, condition,sub_text_2 }) => {
             <p className="mt-0">{sub_text_2}</p>
             {condition ? null : (
               <div className="ain-btns">
-                <a href="#" className="c-btn">
-                  Start Now
-                </a>
-                <a href="#" className="c-btn">
+               
+                <Link href="https://job.myjobsschedule.com/organization-login" className="c-btn" target="_blank">
                   List Your Company
-                </a>
+                </Link>
               </div>
             )}
           </div>

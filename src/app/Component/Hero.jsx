@@ -3,6 +3,7 @@ import "../assets/css/hero-section.css";
 import TypingText from "./TypingText";
 import LogoMarquee from "./LogoMarquee";
 import Image from "next/image";
+import Link from "next/link";
 const Hero = () => {
   return (
     <>
@@ -33,12 +34,10 @@ const Hero = () => {
             </p>
 
             <div className="ain-btns">
-              <a href="#" className="c-btn">
+              <Link href="https://job.myjobsschedule.com/organization-login" className="c-btn" target="_blank">
                 Start Now
-              </a>
-              <a href="#" className="c-btn">
-                List Your Company
-              </a>
+              </Link>
+           
             </div>
 
             <small>

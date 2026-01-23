@@ -1,6 +1,7 @@
 import React from "react";
 import "../assets/css/get_start.css";
 import Image from "next/image";
+import Link from "next/link";
 
 const GetStarted = ({
   title,
@@ -31,9 +32,9 @@ const GetStarted = ({
           </h2>
           <p>{description}</p>
           {buttonText && (
-            <a className="c-btn" href={buttonLink || "#"}>
+            <Link className="c-btn" href={buttonLink || "#"} target="_blank">
               {buttonText}
-            </a>
+            </Link>
           )}
         </div>
 

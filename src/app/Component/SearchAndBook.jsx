@@ -1,6 +1,7 @@
 import React from "react";
 import "../assets/css/searchAndBook.css"; // optional external stylesheet
 import Image from "next/image";
+import Link from "next/link";
 
 const SearchAndBook = ({
   title = " Search and Book Services in Minutes",
@@ -32,12 +33,10 @@ const SearchAndBook = ({
           <p>{pera}</p>
           <div className="main-click">
               <div className="ain-btns">
-                <a href="#" className="c-btn">
-                  Start Now
-                </a>
-                <a href="#" className="c-btn">
+               
+                <Link href="https://job.myjobsschedule.com/organization-login" target="_blank" className="c-btn">
                   List Your Company
-                </a>
+                </Link>
               </div>
             </div>
         </div>
