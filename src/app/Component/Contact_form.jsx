@@ -1,10 +1,11 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
 import { useFormik } from "formik";
 import { contactValidation } from "../validations/contact";
 import { toast } from "react-toastify";
 
 const Contact_form = () => {
+ const [loading, setLoading] = useState(false);
   const formik = useFormik({
     initialValues: {
       firstName: "",
@@ -17,6 +18,7 @@ const Contact_form = () => {
     validationSchema: contactValidation,
     onSubmit: async (values, { resetForm }) => {
       try {
+         setLoading(true);
         const res = await fetch(
       `${process.env.NEXT_PUBLIC_DOMAIN}/api/contact-us/save`,
           {
@@ -29,6 +31,8 @@ const Contact_form = () => {
           },
         );
         const data = await res.json();
+     
+       
         if (data.success) {
           toast.success(data.message);
           resetForm();
@@ -37,7 +41,9 @@ const Contact_form = () => {
         }
       } catch (error) {
         toast.error("Server error, please try again");
-      }
+      } finally {
+    setLoading(false); // ✅ MUST
+  }
     },
   });
 
@@ -151,7 +157,7 @@ const Contact_form = () => {
         </div>
 
         <button type="submit" className="c-btn desktop-btn">
-          Send Now
+       {loading ? "Sending message..." : "Send Now"}
         </button>
       </div>
     </form>
