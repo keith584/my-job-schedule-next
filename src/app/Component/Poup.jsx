@@ -11,8 +11,8 @@ const Poup = ({loginupdate,login}) => {
         <span className='close-me' onClick={()=>loginupdate(false)}> <img src="icons8-close-50.png" alt="" /></span>
         <h3 className='fs-40'>Are you an ?</h3>
       <div className="cta-butons">
-        <Link href="https://job.myjobsschedule.com/organization-backend" target='_blank' className='c-btn' title='organization'>organization</Link>
-        <Link href="https://job.myjobsschedule.com/inspector-backend" target='_blank' className='c-btn' title='inspector'>inspector</Link>
+        <Link href={`${process.env.NEXT_PUBLIC_DOMAIN}/organization-backend`} target='_blank' className='c-btn' title='organization'>organization</Link>
+        <Link href={`${process.env.NEXT_PUBLIC_DOMAIN}/inspector-backend`} target='_blank' className='c-btn' title='inspector'>inspector</Link>
       </div>
       </div>
     </div>
