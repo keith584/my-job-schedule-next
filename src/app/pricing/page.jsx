@@ -29,7 +29,7 @@ const page = () => {
         }
       />
       <Pricing />
-      <Includes />
+      {/* <Includes /> */}
       <Features />
       <Review />
       <Footer />

@@ -36,6 +36,13 @@ background-color: #0D6EFD;
 content: "";
 left: 0px;
 }
+.fetaures{
+    position: relative;
+}
+section.fetaures span.tilde {
+    position: absolute;
+    top: -46px;
+}
 .fs-price-title{
     background: #1876FD;
     border-radius: 10px;

@@ -1,10 +1,15 @@
 import React from "react";
 import "../assets/css/fetaures.css";
 import Link from "next/link";
+import Image from "next/image";
 
 const Features = () => {
   return (
     <section className="fetaures">
+         <span className="tilde">
+              {" "}
+              <Image src="/tildarow.png" alt="tilde row" width={239} height={268} />
+            </span>
       <div className="container">
         <div className="full-list">
           <div className="listall">
