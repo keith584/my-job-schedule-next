@@ -37,8 +37,8 @@ const Contact_us = () => {
                   </div>
                   <div className="contact-info-text">
                     <h2 className="fs-20">E-mail</h2>
-                    <span>keith@seattlerentalinspectionservices.com</span>
-                    <span>grayson@seattlerentalinspectionservices.com</span>
+                    <span><a href="mail:info@myjobschedule.com">info@myjobschedule.com</a></span>
+                    <span><a href="mailto:sales@myjobschedule.com">sales@myjobschedule.com</a></span>
                   </div>
                 </div>
               </div>
