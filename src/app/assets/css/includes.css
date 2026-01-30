@@ -31,7 +31,13 @@ section.icludes span.tilde{
 .tabel-responsive{
     overflow-x: auto;
 }
-
+.fetaures{
+    position: relative;
+}
+section.fetaures span.tilde {
+    position: absolute;
+    top: -78px;
+}
 
 @media(max-width:1600px){
     .container-flow{
@@ -84,6 +90,9 @@ section.icludes span.tilde{
     }
     .full-list{
         padding-bottom: 40px;
+    }
+    .full-list{
+        padding-top: 60px;
     }
 }
 @media(max-width:995px){
